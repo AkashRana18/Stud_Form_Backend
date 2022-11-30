@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="fav.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="login-box">
+
+        <h1>Welcome Back</h1>
+        <p>Enter your details</p>
+
+        <form action="/register" method="post">
+
+<div class="form-group">
+
+                <label for="email">Email </label>
+                <i class='bx bx-envelope' ></i>
+                <input type="email" id="email" placeholder="Your email" required name="email">
+
+                <label for="name">Name</label>
+                <i class="bx bx-user"></i>
+                <input type="text" placeholder="Your name" required name="name">
+
+                <label for="password">Password</label>
+                <i class="bx bx-lock "></i>
+                <input type="password" id="Passsword" placeholder="Password" required name="password">
+
+                <label for="course">Course</label>
+                <i class="bx bx-book"></i>
+                <input type="text" placeholder="Course name" required name="course">
+
+                <label for="age">Age</label>
+                <i class='bx bx-message-rounded-check'></i>
+                <input type="number" placeholder="Your age " required name="age">
+
+ </div>
+
+        <input type="submit" value="Submit">
+    </div>
+ </form>
+
+</body>
+
+</html>
